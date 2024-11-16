@@ -32,5 +32,6 @@ For example, if the input vector is `[1, 2, 3]`, the binary representation of ea
 - `1` -> `1`
 - `2` -> `10`
 - `3` -> `11`
+- Total u8 -> 3
 
-Each of these binary digits is then assigned to a specific part of the resulting `ID` using bit shifts. The first u8 is 7 bits, the second u8 is 3 bits, and the third u8 is 3 bits. The final `ID` is `1010011`.
+Each of these binary digits is then assigned to a specific part of the resulting `ID` using bit shifts. The first u8 is 7 bits, the second u8 is 3 bits, and the third u8 is 3 bits, and the total of u8 is 4 bits. The final `ID` is `10100110011`.
