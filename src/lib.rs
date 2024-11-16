@@ -83,8 +83,8 @@ impl Path {
     }
 }
 
-const RESOLUTION_BITS: i32 = 0b100;
-const PATH_BITS: i32 = 0b11;
+const RESOLUTION_BITS: usize = 0b100;
+const PATH_BITS: usize = 0b11;
 const RESOLUTION_MASK: usize = 0b1111;
 const FIRST_PATH_MASK: usize = 0b1111111;
 const PATH_MASK: usize = 0b111;
